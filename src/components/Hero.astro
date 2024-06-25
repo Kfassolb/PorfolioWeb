@@ -7,10 +7,11 @@ import SocialPill from "@/components/SocialPill.astro"
 import GitHubIcon from "@/components/icons/GitHub.astro"
 ---
 <div class="flex justify-center">
-  <div class="max-w-xl flex gap-10">
-    <div class="gap-4 self-center">
+  <div class="max-w-xl sm:flex gap-10">
+    <div class="gap-4 flex sm:self-center sm:flex-col">
       <img
-        class="rounded-full shadow-lg size-25 mb-4"
+        class="rounded-full shadow-lg size-24 mb-4 sm:size-44"
+        loading="lazy"
         src="/limberperfil.png"
         alt={personalImageAlt}
       />
@@ -33,7 +34,7 @@ import GitHubIcon from "@/components/icons/GitHub.astro"
       <p
         class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
       >
-        Estudiante de la carrera de <strong>Ingeniería de Sistemas de Información</strong> en la Universidad Peruana de Ciencias Aplicadas (♨️UPC). Con interes en la ciencia de datos y el desarrollo web Apasionado por el aprendizaje continuo.
+        Estudiante de la carrera de <strong>Ingeniería de Sistemas de Información</strong> en la Universidad Peruana de Ciencias Aplicadas (♨️UPC). Con interés en la ciencia de datos y el desarrollo web. Apasionado por el aprendizaje continuo.
       </p>
       <nav class="flex flex-wrap gap-4 mt-8">
         <SocialPill href="mailto:limberbazan@gmail.com">
